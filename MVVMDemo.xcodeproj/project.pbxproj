@@ -15,6 +15,8 @@
 		27A819B7256812A500ADDBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A819B5256812A500ADDBBE /* LaunchScreen.storyboard */; };
 		27A819C2256812A600ADDBBE /* MVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A819C1256812A600ADDBBE /* MVVMDemoTests.swift */; };
 		27A819CD256812A600ADDBBE /* MVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A819CC256812A600ADDBBE /* MVVMDemoUITests.swift */; };
+		27A819DE256812CA00ADDBBE /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A819DD256812CA00ADDBBE /* GenericView.swift */; };
+		27A819E92568136900ADDBBE /* GenericViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A819E82568136900ADDBBE /* GenericViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		27A819C8256812A600ADDBBE /* MVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A819CC256812A600ADDBBE /* MVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITests.swift; sourceTree = "<group>"; };
 		27A819CE256812A600ADDBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A819DD256812CA00ADDBBE /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
+		27A819E82568136900ADDBBE /* GenericViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				27A819B3256812A500ADDBBE /* Assets.xcassets */,
 				27A819B5256812A500ADDBBE /* LaunchScreen.storyboard */,
 				27A819B8256812A500ADDBBE /* Info.plist */,
+				27A819DD256812CA00ADDBBE /* GenericView.swift */,
+				27A819E82568136900ADDBBE /* GenericViewModel.swift */,
 			);
 			path = MVVMDemo;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A819E92568136900ADDBBE /* GenericViewModel.swift in Sources */,
 				27A819AF256812A500ADDBBE /* ViewController.swift in Sources */,
+				27A819DE256812CA00ADDBBE /* GenericView.swift in Sources */,
 				27A819AB256812A500ADDBBE /* AppDelegate.swift in Sources */,
 				27A819AD256812A500ADDBBE /* SceneDelegate.swift in Sources */,
 			);
